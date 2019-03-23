@@ -1,11 +1,13 @@
+my_honor=[]
 N,K=int(input()), int(input())
-print(N,K)
-hello_array=[]
-for i in range(1,N+1):
-  hello_array.append(i)
-print(hello_array)
+x,y,z,a,b=int(input()),int(input()),int(input()),int(input()),int(input())
+my_honor.append(x)
+my_honor.append(y)
+my_honor.append(z)
+my_honor.append(a)
+my_honor.append(b)
 sum=0
-for i in hello_array[0:K]:
+for i in my_honor[0:K]:
   sum=sum+i
 print(sum)
   
