@@ -1,4 +1,4 @@
-N,k=input(), input()
+N,k=input().split()
 if(N.isdigit()==True and k.isdigit()==True):
   N=int(N)
   k=int(k)
