@@ -8,4 +8,4 @@ for val in range(N+1, k - 1):
         if (val % n) == 0:
           break
       else:
-        print(val end=' ') 
+        print(val,end=' ') 
