@@ -12,5 +12,5 @@ for val in range(N+1, k - 1):
         l.append(val)
 k=int(len(l))
 for i in range(k-1):
-  print(l[i],end="_")
+  print(l[i],end=" ")
 print(l[k-1])
