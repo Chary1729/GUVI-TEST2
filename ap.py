@@ -1,4 +1,4 @@
-def sumOfAP( a, d,n) : 
+def sumOfAP( n, a,d) : 
     sum = 0
     i = 0
     while i < n : 
@@ -6,9 +6,9 @@ def sumOfAP( a, d,n) :
         a = a + d 
         i = i + 1
     return sum
-a,d,n=input().split()
+n,a,d=input().split()
 a=int(a)
 d=int(d)
 n=int(n)
-print(sumOfAP(a,d,n))
+print(sumOfAP(n,a,d))
   
