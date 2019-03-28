@@ -1,4 +1,4 @@
-def sumOfAP( n, a,d) : 
+def sumOfAP(n,a,d) : 
     sum = 0
     i = 0
     while i < n : 
